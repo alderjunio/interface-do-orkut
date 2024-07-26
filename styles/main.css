@@ -1,0 +1,28 @@
+:root{
+    background-color: #f0c9ea;
+}
+
+.container{
+    width: 80%;
+    height: 70vh;
+    background-color: #fff;
+    border-radius: 1.5rem;
+
+    margin: auto;
+    margin-top: 5%;
+ 
+    border: 1px solid blue;
+}
+
+.fields{
+    margin: 1.5rem 2.5rem;
+}
+
+.pink_font{
+    color: #E8258E;
+}
+
+#field__title{
+    font-weight: 800;
+    font-size: 18px;
+}
