@@ -22,6 +22,30 @@
     color: #E8258E;
 }
 
+#first_letter{
+    color: #1159AA;
+}
+
+#second_letter{
+    color: #E02F25;
+}
+
+#third_letter{
+    color: #F4AA02;
+}
+
+#fourth_letter{
+    color: #2E70E9;
+}
+
+#fifth_letter{
+    color:#249B41;
+}
+
+#sixth_letter{
+    color: #E83225;
+}
+
 #field__title{
     font-weight: 800;
     font-size: 18px;
