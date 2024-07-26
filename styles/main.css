@@ -49,4 +49,50 @@
 #field__title{
     font-weight: 800;
     font-size: 18px;
+    color: #3a3a3a;
+    margin-bottom: 1rem;
+}
+
+.fields__textboxs{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    justify-content: space-between;
+    /*border: 1px solid red;*/
+    margin-bottom: 1rem;
+}
+
+.fields__textboxs > input{
+    height: 2.5rem;
+    border: 1px solid silver;
+    border-radius: .5rem;
+    
+}
+
+.fields__remember{
+    margin-bottom: 1.25rem;
+}
+
+#btnLogin{
+    width: 100%;
+    border: none;
+    background-color: #E8258E;
+    color: #fff;
+    padding: 0.625rem;
+    border-radius: 0.313rem;
+    margin-bottom: 0.625rem;
+    cursor: pointer;
+}
+
+.fields__recovery{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5rem;
+}
+
+.fields__create{
+    display: flex;
+    justify-content: center;
+    font-size: 1.25rem;
+    font-weight: 800;
 }
