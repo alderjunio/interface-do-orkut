@@ -1,21 +1,32 @@
 :root{
     background-color: #f0c9ea;
+    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    margin-top: 1.25rem;
+}
+
+.logo img{
+    height: 80px;
 }
 
 .container{
-    width: 80%;
+    width: 90%;
     height: 70vh;
     background-color: #fff;
     border-radius: 1.5rem;
 
     margin: auto;
     margin-top: 5%;
- 
-    border: 1px solid blue;
+
+    box-shadow: 10px 9px 24px 3px rgba(64,61,61,0.69);    
 }
 
 .fields{
-    margin: 1.5rem 2.5rem;
+    margin: 1.5rem 1rem;
 }
 
 .pink_font{
@@ -46,11 +57,17 @@
     color: #E83225;
 }
 
+.fields__title{
+    display: flex;
+    justify-content: center;
+}
+
 #field__title{
     font-weight: 800;
-    font-size: 18px;
+    font-size: 1rem;
     color: #3a3a3a;
     margin-bottom: 1rem;
+    margin-top: 1.25rem;
 }
 
 .fields__textboxs{
