@@ -1,7 +1,4 @@
-:root{
-    background-color: #f0c9ea;
-    font-family: 'Segoe UI', Helvetica, Arial, sans-serif;
-}
+
 
 .logo{
     display: flex;
@@ -28,10 +25,6 @@
 
 .fields{
     margin: 1.5rem 1rem;
-}
-
-.pink_font{
-    color: #E8258E;
 }
 
 #first_letter{
@@ -94,12 +87,10 @@
 #btnLogin{
     width: 100%;
     border: none;
-    background-color: #E8258E;
     color: #fff;
     padding: 0.625rem;
     border-radius: 0.313rem;
     margin-top: 1.5rem;
-    cursor: pointer;
 }
 
 .fields__recovery{
