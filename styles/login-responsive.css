@@ -1,6 +1,10 @@
 @media screen and (min-width: 650px) {
     .container{
         margin-top: 1.25rem;
+    }   
+
+    .fields__title{
+        margin-bottom: 2rem;
     }
 
     #field__title{
