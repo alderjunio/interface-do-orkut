@@ -9,15 +9,19 @@
 }
 
 .container{
-    margin: auto;
-    margin-top: 100px;
+    margin: 0 auto;
+    max-width: 350px;
+    margin-top: 20px;
     /*border: 1px solid blue;*/
     display: flex;
     flex-direction: column;
     width: 100%;
-    max-width: 1300PX;
     /*height: 100vh;*/
     padding: 0 1rem;
+}
+
+.painel{
+    max-width: 1300PX;
 }
 
 .container :not(:first-child){
